@@ -1,4 +1,4 @@
-from stack import Stack
+from stackAndQueue.stack import Stack
 
 
 def QuickSortIterative(A):

@@ -11,6 +11,7 @@ def MergeSortRecursive(A):
     mid = len(A)//2
     left = MergeSortRecursive(A[:mid])
     right = MergeSortRecursive(A[mid:])
+    print(left, right)
     C = merge(left, right)
     return C
 
@@ -62,7 +63,7 @@ def reduce(B):
     return B[-1]
 
 
-A = [8, 7, 6, 5, 4, 3, 2]
+A = [8, 7, 6, 5, 4, 3, 2, 10]
 print(MergeSortIterative(A))
-A = [8, 7, 6, 5, 4, 3, 2]
+A = [8, 7, 6, 5, 4, 3, 2, 10]
 print(MergeSortRecursive(A))

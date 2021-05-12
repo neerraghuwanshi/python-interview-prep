@@ -1,5 +1,6 @@
 # Given two strings, write a method to decide if one is a permutation of the other.
 
+
 def checkPermutation(string1, string2):
     
     if len(string1) != len(string2):
